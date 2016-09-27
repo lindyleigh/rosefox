@@ -16,6 +16,10 @@
                     url: '/portfolio',
                     component: 'portfolioComponent'
                 })
+                .state('services', {
+                    url: '/services',
+                    component: 'servicesComponent'
+                })
                 .state('about', {
                     url: '/about',
                     component: 'aboutComponent'
