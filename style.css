@@ -24,13 +24,19 @@
 
 .social {
     position: absolute;
+    top: 1%;
+    right:1%;
 }
 
 .portfolio {
     position: absolute;
+    right: 0;
+    top: 70%;
 }
 
 .intro {
     position: absolute;
+    left: 0;
+    top: 40%;
 }
 
