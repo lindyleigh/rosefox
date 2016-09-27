@@ -35,6 +35,10 @@
     color:#efccd1;
 }
 
+.social:hover {
+    color:cornsilk;
+}
+
 .portfolio {
     position: absolute;
     right: 0;
