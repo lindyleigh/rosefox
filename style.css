@@ -32,10 +32,13 @@
     position: absolute;
     top: 1%;
     right:1%;
+}
+
+.social a {
     color:#efccd1;
 }
 
-.social:hover {
+.social a:hover {
     color:cornsilk;
 }
 
