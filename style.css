@@ -1,3 +1,14 @@
+/*header*/
+
+.logo {
+    border: 5px solid #efccd1;
+    width: 10%;
+    height:10%;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
 /*home*/
 
 .home-bg {
@@ -13,13 +24,6 @@
   left: 0;
   position: fixed;
   top: 0;
-}
-
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-  .home-bg {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
 }
 
 .intro {
@@ -89,6 +93,13 @@
 .portfolio a:hover {
     color:cornsilk;
     text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  .home-bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
 }
 
 
