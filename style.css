@@ -50,6 +50,7 @@
     color: darkslategrey;
     margin-top: 0;
     padding: 1% 0 1% 0;
+    text-align: center;
 }
 
 .social {
@@ -68,6 +69,7 @@
 
 .portfolio {
     background-color: darkslategrey;
+    border: 1px solid cornsilk;
     padding: 0 2% 0 2%;
     position: absolute;
     right: 0;
