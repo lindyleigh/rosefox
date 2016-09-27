@@ -48,12 +48,13 @@
     font-size: 20px;
 }
 
-.portfoli a {
+.portfolio a {
     color:#efccd1;
 }
 
 .portfolio a:hover {
     color:cornsilk;
+    text-decoration: none;
 }
 
 
