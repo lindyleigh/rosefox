@@ -48,11 +48,11 @@
     top: 60%;
     background-color: darkslategrey;
     padding: 0 2% 0 2%;
-    font-size: 20px;
 }
 
 .portfolio a {
     color:#efccd1;
+    font-size: 25px;
 }
 
 .portfolio a:hover {
