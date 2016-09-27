@@ -26,3 +26,15 @@
     height: auto;
 }
 
+.intro {
+    position: absolute;
+}
+
+.portfolio {
+    position: absolute;
+}
+
+.social {
+    position: absolute;
+}
+
