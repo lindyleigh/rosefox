@@ -1,4 +1,7 @@
 body .home {
-    background: url("images/peonies.jpg") no-repeat left top fixed;
-    background-size: cover;
+   background: url(images/peonies.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }   
