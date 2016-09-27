@@ -22,21 +22,30 @@
   }
 }
 
+.intro {
+    position: absolute;
+    left: 0;
+    top: 35%;
+}
+
 .social {
     position: absolute;
     top: 1%;
     right:1%;
+    color:lightpink;
 }
 
 .portfolio {
     position: absolute;
     right: 0;
-    top: 70%;
+    top: 60%;
+    background-color: darkslategrey;
+    color: lightpink;
+    padding: 1%;
 }
 
-.intro {
-    position: absolute;
-    left: 0;
-    top: 40%;
+.portfolio a:hover {
+    color:cornsilk;
 }
+
 
