@@ -19,6 +19,31 @@
 
 .menu {
     position: absolute;
+    top: 3%;
+    left: 5%;
+}
+
+.menu ul {
+	list-style: none;
+    /*padding-left: 0;*/
+    /*text-align: center;*/
+}
+
+.menu li {
+	display: inline-block;
+    /*margin: 2%;*/
+    font-weight: bold;
+    font-family: 'Yatra One', cursive;
+    /*font-size: 18px;*/
+}
+
+.menu a {
+	color: #efccd1;
+}
+
+.menu a:hover {
+    color: cornsilk;
+    text-decoration: none;
 }
 
 /*home*/
