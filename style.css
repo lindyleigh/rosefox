@@ -76,7 +76,7 @@
     font-family: 'Yatra One', cursive;
     margin-bottom: 0;
     margin-top: 0;
-    padding: 1% 0 1% 62%;
+    padding: 1% 0 1% 59%;
     width: 115%;
 }
 
@@ -98,6 +98,7 @@
 
 .social i {
     color: #f3dfe2;
+    opacity: 0.6;
 }
 
 .social i:hover {
