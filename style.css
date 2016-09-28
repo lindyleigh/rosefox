@@ -3,10 +3,18 @@
 .logo {
     border: 5px solid #efccd1;
     width: 5%;
-    height:5%;
+    height:10%;
     position: absolute;
     top: 3%;
     left: 3%;
+}
+
+.logo img {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 5%;
+    height: 5%;
 }
 
 .menu {
