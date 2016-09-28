@@ -9,6 +9,10 @@
     left: 3%;
 }
 
+.menu {
+    position: absolute;
+}
+
 /*home*/
 
 .home-bg {
