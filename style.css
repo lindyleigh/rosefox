@@ -63,6 +63,9 @@
 
 .intro h1 {
     background-color: #efccd1;
+    box-shadow: 3px 3px 5px 6px cornsilk;
+    -moz-box-shadow: 3px 3px 5px 6px cornsilk;
+   -webkit-box-shadow: 3px 3px 5px 6pxcornsilk;
     font-family: 'Yatra One', cursive;
     font-size: 85px;
     margin-bottom: 0;
@@ -76,7 +79,7 @@
     font-family: 'Yatra One', cursive;
     margin-bottom: 0;
     margin-top: 0;
-    padding: 1% 0 1% 63%;
+    padding: 1% 0 1% 62%;
     width: 115%;
 }
 
