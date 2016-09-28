@@ -130,8 +130,11 @@
     left: 50%;
     margin-left: -512px;   /* 50% */
   }
+}
 
-  .intro {
+
+@media screen and (max-width: 680px) {
+    .intro {
     left: 19%;
     top: -2%;
   }
@@ -165,5 +168,8 @@
     right: 38%;
   }
 }
+
+  
+
 
 
