@@ -2,7 +2,7 @@
 
 .logo {
     border: 5px solid #efccd1;
-    width: 10%;
+    width: 5%;
     height:15%;
     position: absolute;
     top: 3%;
@@ -12,7 +12,7 @@
 .menu {
     position: absolute;
     top: 3%;
-    left: 5%;
+    left: 8%;
 }
 
 .menu ul {
