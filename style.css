@@ -160,12 +160,12 @@
 
   .menu {
       top: 1%;
-      right: 2%;
+      left: 68%;
   }
 
   .social {
     bottom: 3%;
-    right: 38%;
+    right: 95%;
   }
 }
 
