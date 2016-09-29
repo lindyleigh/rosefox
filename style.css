@@ -90,6 +90,10 @@
     font-weight: bold;
 }
 
+.introtwo h4 {
+    display: none;
+}
+
 .social {
     position: absolute;
     right:1%;
@@ -136,23 +140,28 @@
 @media screen and (max-width: 680px) {
     .intro {
     left: 19%;
-    top: -2%;
+    top: -1%;
   }
 
   .intro h1 {
     font-size: 25px;
     padding: 1% 3% 1% 3%;
-    width: 65%;
+    width: 100%;
   }
 
   .intro h3 {
     font-size: 13px;
     padding: 1% 0 1% 24%;
-    width: 68%;
+    width: 106%;
   }
 
   .intro h4 {
       display: none;
+  }
+
+  .introtwo h4 {
+      font-family: 'Lobster Two', cursive;
+      font-weight: bold;
   }
 
   .logo {
