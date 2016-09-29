@@ -160,10 +160,15 @@
       visibility: hidden;
   }
 
+  .introtwo {
+      position: absolute;
+  }
+
   .introtwo h4 {
       font-family: 'Lobster Two', cursive;
       font-weight: bold;
       visibility: visible;
+      color: cornsilk;
   }
 
   .logo {
