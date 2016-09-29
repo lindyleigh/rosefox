@@ -141,27 +141,23 @@
 @media screen and (max-width: 680px) {
     .intro {
     left: 19%;
-    top: -1%;
+    top: -2%;
   }
 
   .intro h1 {
     font-size: 25px;
     padding: 1% 3% 1% 3%;
-    width: 100%;
+    width: 63%;
   }
 
   .intro h3 {
     font-size: 13px;
-    padding: 1% 0 1% 24%;
-    width: 106%;
+    padding: 1% 0 1% 19%;
+    width: 70%;
   }
 
   .intro h4 {
       visibility: hidden;
-  }
-
-  .introtwo {
-      position: absolute;
   }
 
   .introtwo h4 {
@@ -169,6 +165,24 @@
       font-weight: bold;
       visibility: visible;
       color: cornsilk;
+  }
+
+  .introtwo:first-child {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+  }
+
+  .introtwo:nth-child(2) {
+      position: absolute;
+      top: 8%;
+      left: 11%;
+  }
+
+  .introtwo:nth-child(3) {
+      position: absolute;
+      top: 11%;
+      left: 14%;
   }
 
   .logo {
