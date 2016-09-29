@@ -10,9 +10,10 @@
 }
 
 .menu {
+    left: 9%;
     position: absolute;
     top: 3%;
-    left: 9%;
+    visibility: visible;
 }
 
 .menu ul {
@@ -139,6 +140,12 @@
 
 
 @media screen and (max-width: 680px) {
+  .hamburger {
+    left: 68%;
+    top: 1%;
+    visibility: visible;
+  }
+
     .intro {
     left: 19%;
     top: -2%;
@@ -193,8 +200,7 @@
   }
 
   .menu {
-    top: 1%;
-    left: 68%;
+      visibility: hidden;
   }
 
   .social {
