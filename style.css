@@ -88,10 +88,11 @@
     padding: 1% 0 1% 0;
     text-align: center;
     font-weight: bold;
+    visibility: visible;
 }
 
 .introtwo h4 {
-    display: none;
+    visibility: hidden;
 }
 
 .social {
@@ -156,12 +157,13 @@
   }
 
   .intro h4 {
-      display: none;
+      visibility: hidden;
   }
 
   .introtwo h4 {
       font-family: 'Lobster Two', cursive;
       font-weight: bold;
+      visibility: visible;
   }
 
   .logo {
