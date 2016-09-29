@@ -159,13 +159,13 @@
   }
 
   .menu {
-      top: 1%;
-      left: 68%;
+    top: 1%;
+    left: 68%;
   }
 
   .social {
     bottom: 3%;
-    right: 95%;
+    left: 95%;
   }
 }
 
