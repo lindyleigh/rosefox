@@ -150,17 +150,20 @@
 @media screen and (max-width: 680px) {
   .hamburger-btn {
     background-color: #efccd1;
+    border: none;
+    height: 5%;
     position: absolute;
     right: 2%;
     top: 1%;
     visibility: visible;
+    width: 9%;
   }
 
   .hamburger {
-    background-color:cornsilk;
+    background-color:darkslategray;
     height: 100%;
     overflow-x: hidden;
-    padding-top: 60px; 
+    padding-top: 10%; 
     position: fixed; 
     right: 0;
     top: 0;
@@ -174,22 +177,14 @@
     display: block;
     font-family: 'Yatra One', cursive;
     font-size: 18px;
+    font-weight: bold;
     padding: 8px 8px 8px;
     text-decoration: none;
     transition: 0.3s
 }
 
-/*.hamburger li {
-    color:#efccd1;
-    display: block;
-    font-size: 20px;
-    padding: 8px 8px 8px;
-    text-decoration: none;
-    transition: 0.3s;
-}*/
-
 .hamburger li {
-    border: 1px darkslategrey;
+    border-bottom: 1px solid darkslategrey;
 }
 
 .hamburger ul {
@@ -207,9 +202,10 @@
 }
 
 .hamburger .closebtn {
-    position: absolute;
+    color: #efccd1;
     font-size: 20px;
     left: 0;
+    position: absolute;
     top: 0;
 }
 
