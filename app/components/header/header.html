@@ -12,11 +12,14 @@
             <li ui-sref-active="active"><a ui-sref="contact">Contact</a></li>
         </ul>
     </div>
-    <div class="hamburger">
-        <h1>&#9776;</h1>
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger"></label>
-         <ul>
+
+    <div>
+        <button class="hamburger-btn" ng-click="$ctrl.openMenu()">&#9776;</button>
+    </div>
+
+    <div id="hamburger" class="hamburger">
+        <a href="javascript:void(0)" class="closebtn" ng-click="$ctrl.closeMenu()">&times;</a>
+        <ul>
             <li ui-sref-active="active"><a ui-sref="home">Home</a></li>
             <li ui-sref-active="active"><a ui-sref="portfolio">Portfolio</a></li>
             <li ui-sref-active="active"><a ui-sref="services">Services</a></li>
@@ -26,3 +29,4 @@
         </ul>
     </div>
 </div>
+    
