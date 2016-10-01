@@ -188,6 +188,14 @@
     transition: 0.3s;
 }*/
 
+.hamburger li {
+    border: 1px darkslategrey;
+}
+
+.hamburger ul {
+    list-style: none;
+}
+
 .hamburger a:hover, .offcanvas a:focus{
     color: darkslategray;
     
