@@ -149,6 +149,7 @@
 
 @media screen and (max-width: 680px) {
   .hamburger-btn {
+    background-color: #efccd1;
     position: absolute;
     right: 2%;
     top: 1%;
