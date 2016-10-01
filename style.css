@@ -270,9 +270,10 @@
   }
 
   .social-mobile {
+    bottom: -1%;
+    position: absolute;
+    right: 26%;
     visibility: visible;
-    bottom: 1%;
-    right: 38%
   }
 
   .social-mobile li {
