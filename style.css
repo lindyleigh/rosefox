@@ -190,6 +190,7 @@
 
 .hamburger ul {
     list-style: none;
+    padding-left: 0;
 }
 
 .hamburger a:hover, .offcanvas a:focus{
