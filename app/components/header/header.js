@@ -14,7 +14,7 @@
         }
 
         $ctrl.closeMenu= function() {
-        angular.element(document.getElementById("hamburger").style.width = "0");
+            angular.element(document.getElementById("hamburger").style.width = "0");
 }
 
     }
