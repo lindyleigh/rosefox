@@ -118,6 +118,10 @@
     color:cornsilk;
 }
 
+.social-mobile {
+    visibility: hidden;
+}
+
 .portfolio {
     background-color: darkslategrey;
     border: 1px solid cornsilk;
@@ -162,7 +166,7 @@
     background-color:darkslategray;
     height: 100%;
     overflow-x: hidden;
-    padding-top: 10%; 
+    padding-top: 14%; 
     position: fixed; 
     right: 0;
     top: 0;
@@ -177,7 +181,7 @@
     font-family: 'Yatra One', cursive;
     font-size: 18px;
     font-weight: bold;
-    padding: 8px 8px 8px;
+    padding: 10px 10px 10px;
     text-decoration: none;
     transition: 0.3s
 }
@@ -261,10 +265,18 @@
       visibility: hidden;
   }
 
-  .social {
-    top: 95%;
+  .social-mobile {
+    bottom: 1%;
     right: 38%
   }
+
+  .social-mobile i {
+    color: #f3dfe2;
+}
+
+.social-mobile i:hover {
+    color:cornsilk;
+}
 }
 
   
