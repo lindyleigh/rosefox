@@ -170,22 +170,23 @@
   }
 
   .hamburger a {
-    color:#efccd1;
+    color:darkslategrey;
     display: block;
+    font-family: 'Yatra One', cursive;
     font-size: 18px;
     padding: 8px 8px 8px;
     text-decoration: none;
     transition: 0.3s
 }
 
-.hamburger li {
+/*.hamburger li {
     color:#efccd1;
     display: block;
     font-size: 20px;
     padding: 8px 8px 8px;
     text-decoration: none;
     transition: 0.3s;
-}
+}*/
 
 .hamburger a:hover, .offcanvas a:focus{
     color: darkslategray;
