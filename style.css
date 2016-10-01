@@ -185,6 +185,7 @@
 
 .hamburger li {
     border-bottom: 1px solid darkslategrey;
+    background-color: #efccd1;
 }
 
 .hamburger ul {
