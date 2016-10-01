@@ -44,6 +44,7 @@
 
 .hamburger {
     width: 0;
+    visibility: hidden;
 }
 
 /*home*/
@@ -172,6 +173,7 @@
     top: 0;
     transition: 0.5s;
     width: 0;
+    visibility: visible;
     z-index: 1; 
   }
 
