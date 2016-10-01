@@ -193,19 +193,13 @@
     padding-left: 0;
 }
 
-.hamburger a:hover, .offcanvas a:focus{
+.hamburger a:hover {
     color: darkslategray;
-    
-}
-
-.hamburger li:hover, .offcanvas li:focus{
-    color:white;
-    
 }
 
 .hamburger .closebtn {
     color: #efccd1;
-    font-size: 20px;
+    font-size: 30px;
     left: 0;
     position: absolute;
     top: 0;
