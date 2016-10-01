@@ -275,6 +275,12 @@
     right: 38%
   }
 
+  .social-mobile li {
+      background-color: none;
+      border: none;
+      display: inline;
+  }
+
   .social-mobile i {
     color: #f3dfe2;
 }
