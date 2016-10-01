@@ -278,7 +278,7 @@
   .social-mobile li {
       background-color: none;
       border: none;
-      display: inline;
+      display: inline-block;
   }
 
   .social-mobile i {
