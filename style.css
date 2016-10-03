@@ -18,8 +18,6 @@
 
 .menu ul {
 	list-style: none;
-    /*padding-left: 0;*/
-    /*text-align: center;*/
 }
 
 .menu li {
@@ -43,8 +41,8 @@
 }
 
 .hamburger {
-    width: 0;
     visibility: hidden;
+    width: 0;
 }
 
 /*home*/
@@ -94,10 +92,10 @@
     background-color: cornsilk;
     color: darkslategrey;
     font-family: 'Lobster Two', cursive;
+    font-weight: bold;
     margin-top: 0;
     padding: 1% 0 1% 0;
     text-align: center;
-    font-weight: bold;
     visibility: visible;
 }
 
@@ -142,6 +140,8 @@
     color:cornsilk;
     text-decoration: none;
 }
+
+/*mobile responsiveness*/
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
   .home-bg {
@@ -189,8 +189,8 @@
 }
 
 .hamburger li {
-    border-bottom: 1px solid darkslategrey;
     background-color: #efccd1;
+    border-bottom: 1px solid darkslategrey;
 }
 
 .hamburger ul {
@@ -232,35 +232,35 @@
   }
 
   .introtwo h4 {
+      color: cornsilk;
       font-family: 'Lobster Two', cursive;
       font-weight: bold;
       visibility: visible;
-      color: cornsilk;
   }
 
   .introtwo:first-child {
+      left: 5%;
       position: absolute;
       top: 5%;
-      left: 5%;
   }
 
   .introtwo:nth-child(2) {
+      left: 11%;
       position: absolute;
       top: 8%;
-      left: 11%;
   }
 
   .introtwo:nth-child(3) {
+      left: 14%;
       position: absolute;
       top: 11%;
-      left: 14%;
   }
 
   .logo {
-    width: 14%;
+    left: 2%;
     height: 8%;
     top: 1%;
-    left: 2%;
+    width: 14%;
   }
 
   .menu {
