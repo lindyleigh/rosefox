@@ -83,8 +83,11 @@
     font-family: 'Lobster Two', cursive;
     font-weight: bold;
     margin-top: 0;
-    padding: 10% 0 1% 0;
+    left: 1%;
+    padding: 1% 0 1% 0;
+    position: absolute;
     text-align: center;
+    top: 40%;
     visibility: visible;
 }
 
